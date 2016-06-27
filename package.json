@@ -4,7 +4,8 @@
   "description": "Where are the Voyagers?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bin/start"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/dbalatero/voyager#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
   }
 }
