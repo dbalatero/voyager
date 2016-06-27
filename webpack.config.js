@@ -16,18 +16,20 @@ var config = {
     extensions: ['', '.js', '.jsx']
   },
 
-  loaders : [
-    {
-      test : /\.jsx?/,
-      include : APP_DIR,
-      exclude: /(node_modules|tmp)/,
-      loader : 'babel',
-      query: {
-        presets: ['es2015', 'react'],
-        cacheDirectory: "tmp"
+  module: {
+    loaders : [
+      {
+        test : /\.jsx?/,
+        include : APP_DIR,
+        exclude: /(node_modules|tmp)/,
+        loader : 'babel',
+        query: {
+          presets: ['es2015', 'react'],
+          cacheDirectory: "tmp"
+        }
       }
-    }
-  ]
+    ]
+  }
 }
 
 module.exports = config

@@ -1,4 +1,4 @@
-const react = require('react')
+const React = require('react')
 const { render } = require('react-dom')
 
 class App extends React.Component {
