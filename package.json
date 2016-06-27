@@ -1,0 +1,19 @@
+{
+  "name": "voyager",
+  "version": "1.0.0",
+  "description": "Where are the Voyagers?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbalatero/voyager.git"
+  },
+  "author": "David Balatero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbalatero/voyager/issues"
+  },
+  "homepage": "https://github.com/dbalatero/voyager#readme"
+}
